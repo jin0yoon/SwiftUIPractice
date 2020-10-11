@@ -14,6 +14,8 @@
 		45C647FF2532CF9B005AFEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C647FE2532CF9B005AFEF1 /* Assets.xcassets */; };
 		45C648022532CF9B005AFEF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C648012532CF9B005AFEF1 /* Preview Assets.xcassets */; };
 		45C648052532CF9B005AFEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C648032532CF9B005AFEF1 /* LaunchScreen.storyboard */; };
+		45C648102532D33F005AFEF1 /* MyVstackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6480F2532D33F005AFEF1 /* MyVstackView.swift */; };
+		45C648192532D749005AFEF1 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C648182532D749005AFEF1 /* MyTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		45C648012532CF9B005AFEF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		45C648042532CF9B005AFEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45C648062532CF9B005AFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C6480F2532D33F005AFEF1 /* MyVstackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVstackView.swift; sourceTree = "<group>"; };
+		45C648182532D749005AFEF1 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,9 @@
 		45C647F42532CF9A005AFEF1 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				45C6480E2532D318005AFEF1 /* chap1 */,
 				45C647F52532CF9A005AFEF1 /* AppDelegate.swift */,
 				45C647F72532CF9A005AFEF1 /* SceneDelegate.swift */,
-				45C647F92532CF9A005AFEF1 /* ContentView.swift */,
 				45C647FE2532CF9B005AFEF1 /* Assets.xcassets */,
 				45C648032532CF9B005AFEF1 /* LaunchScreen.storyboard */,
 				45C648062532CF9B005AFEF1 /* Info.plist */,
@@ -76,6 +80,16 @@
 				45C648012532CF9B005AFEF1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		45C6480E2532D318005AFEF1 /* chap1 */ = {
+			isa = PBXGroup;
+			children = (
+				45C647F92532CF9A005AFEF1 /* ContentView.swift */,
+				45C6480F2532D33F005AFEF1 /* MyVstackView.swift */,
+				45C648182532D749005AFEF1 /* MyTextView.swift */,
+			);
+			path = chap1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C647F62532CF9A005AFEF1 /* AppDelegate.swift in Sources */,
+				45C648192532D749005AFEF1 /* MyTextView.swift in Sources */,
 				45C647F82532CF9A005AFEF1 /* SceneDelegate.swift in Sources */,
 				45C647FD2532CF9A005AFEF1 /* SwiftUIPractice.xcdatamodeld in Sources */,
+				45C648102532D33F005AFEF1 /* MyVstackView.swift in Sources */,
 				45C647FA2532CF9A005AFEF1 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
